@@ -19,5 +19,5 @@ def oxford_comma(arr)
     str << ", " if arr.length >= 3 
     str << word
   end
-  binding.pry
+  # binding.pry
 end 
