@@ -16,4 +16,5 @@ def oxford_comma(arr)
     str << word
     str << ", "
   end
+  str
 end 
