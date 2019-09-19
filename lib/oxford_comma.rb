@@ -13,6 +13,8 @@ require 'pry'
 def oxford_comma(arr)
   if arr.length == 1
     return arr[0]
+  elsif arr.length == 2 
+    array.join(" and ")
   else 
     str = ""
     arr.each do |word|
