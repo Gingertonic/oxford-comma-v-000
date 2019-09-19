@@ -11,17 +11,18 @@ require 'pry'
 # end
 
 def oxford_comma(arr)
+  str = ""
   if arr.length == 1
     return arr[0]
   elsif arr.length == 2 
     arr.join(" and ")
   else 
-    str = ""
+    
     arr.each do |word|
       str << word
       str << ", "
     end
     arr.push("and #{arr.pop}").join(", ")
-    str
   end
+  str = ""
 end 
