@@ -13,7 +13,7 @@ require 'pry'
 def oxford_comma(arr)
   str = ""
   if arr.length == 1
-    return arr[0]
+    str << arr[0]
   elsif arr.length == 2 
     arr.join(" and ")
   else 
