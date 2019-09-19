@@ -6,7 +6,7 @@ def oxford_comma(array)
   elsif array.length > 2 
     last = array.pop
     array << "and #{last}"
-    binding.pry
+    # binding.pry
     array.join(", ")
   else  
     array.join
