@@ -15,7 +15,7 @@ def oxford_comma(arr)
   if arr.length == 1
     str << arr[0]
   elsif arr.length == 2 
-    arr.join(" and ")
+    str.push << arr.join(" and ")
   else 
     
     arr.each do |word|
