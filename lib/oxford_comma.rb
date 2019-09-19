@@ -12,4 +12,7 @@ require 'pry'
 
 def oxford_comma(arr)
   str = ""
+  arr.each.with_index do |word, idx|
+    
+  end
 end 
