@@ -20,4 +20,5 @@ def oxford_comma(arr)
     str << word
   end
   # binding.pry
+  str
 end 
