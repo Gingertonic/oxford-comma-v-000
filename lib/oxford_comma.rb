@@ -11,10 +11,13 @@ require 'pry'
 # end
 
 def oxford_comma(arr)
-  str = ""
-  arr.each do |word|
-    str << word
-    str << ", "
-  end
-  str
+  if array.length == 1
+    return arr[0]
+  else 
+    str = ""
+    arr.each do |word|
+      str << word
+      str << ", "
+    end
+    str
 end 
