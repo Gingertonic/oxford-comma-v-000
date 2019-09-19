@@ -21,6 +21,7 @@ def oxford_comma(arr)
       str << word
       str << ", "
     end
+    array.push("and #{array.pop}").join(", ")
     str
   end
 end 
