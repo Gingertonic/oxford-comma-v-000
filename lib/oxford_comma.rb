@@ -5,6 +5,8 @@ def oxford_comma(array)
     array.join(" and ")
   elsif array.length > 2 
   binding.pry
+    last = array.pop
+    array << "and starfruit"
     array.join(", ")
   else  
     array.join
