@@ -13,6 +13,8 @@ require 'pry'
 def oxford_comma(arr)
   str = ""
   arr.each.with_index do |word, idx|
-    binding.pry
+    if idx == arr.length - 1 
+      str << ", and #{word}"
+    end 
   end
 end 
