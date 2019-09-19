@@ -10,15 +10,4 @@ def oxford_comma(array)
   end
 end
 
-# def oxford_comma(arr)
-#   str = ""
-#   arr.each.with_index do |word, idx|
-#     if idx == arr.length - 1 && arr.length > 1
-#       str << "and "
-#     end 
-#     str << word
-#     str << ", " if arr.length >= 3 
-#   end
-#   # binding.pry
-#   str
-# end 
+
