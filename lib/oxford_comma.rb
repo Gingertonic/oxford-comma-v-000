@@ -11,5 +11,9 @@ require 'pry'
 # end
 
 def oxford_comma(arr)
-  
+  str = ""
+  arr.each do |word|
+    str << word
+    str << ", "
+  end
 end 
