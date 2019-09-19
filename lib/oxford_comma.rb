@@ -20,4 +20,5 @@ def oxford_comma(arr)
       str << ", "
     end
     str
+  end
 end 
